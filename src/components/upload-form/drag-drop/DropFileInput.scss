@@ -1,0 +1,55 @@
+.drop-file-input {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    border: 2px dashed #626a89;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6ff;
+    border-radius: 14px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #c1c1c1;
+    margin-bottom: 35px;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .cloud {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 7vw;
+            margin-bottom: 10px;
+
+            .cloud-img {
+                width: 7vw;
+            }
+        }
+
+        span:last-child{
+            margin-top: 10px;
+           font-size: 18px;
+        }
+    }
+
+    .input {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 430px;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+}
+
+.drop-file-input:hover,
+.drop-file-input.dragover {
+    background-color: #f1f1ff;
+}

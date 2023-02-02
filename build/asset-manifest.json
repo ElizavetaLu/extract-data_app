@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/extract-data_app/build/static/css/main.f1e8efcd.css",
+    "main.js": "/extract-data_app/build/static/js/main.2e4b9abf.js",
+    "index.html": "/extract-data_app/build/index.html",
+    "main.f1e8efcd.css.map": "/extract-data_app/build/static/css/main.f1e8efcd.css.map",
+    "main.2e4b9abf.js.map": "/extract-data_app/build/static/js/main.2e4b9abf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1e8efcd.css",
+    "static/js/main.2e4b9abf.js"
+  ]
+}

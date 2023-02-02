@@ -1,0 +1,98 @@
+.main-container {
+    padding: 80px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+
+    .files {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .block-title {
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .files-list {
+            margin: 20px 0px;
+            display: flex;
+            flex-direction: column;
+
+            .file-name {
+                font-size: 18px;
+                padding: 5px 0px;
+                cursor: pointer;
+                transition: 0.2s all;
+                color: rgb(59, 59, 59);
+            }
+
+            .file-name:hover {
+                color: #3f41c6;
+            }
+        }
+    }
+
+    .err {
+        height: 20px;
+        color: red;
+    }
+
+    table {
+        width: 90%;
+        border-collapse: collapse;
+        box-shadow: 1px 1px 12px #ddd;
+
+        thead {
+            background-color: #03045e;
+            color: #fff;
+            height: 60px;
+            border-top-left-radius: 14px;
+            border-top-right-radius: 14px;
+
+            tr {
+                border-top-left-radius: 14px;
+                border-top-right-radius: 14px;
+
+                th:first-child {
+                    width: 50px;
+                    border-right: 1px solid rgb(220, 234, 255);
+                    border-top-left-radius: 14px;
+                }
+
+                th:last-child {
+                    border-top-right-radius: 14px;
+                    font-size: 25px;
+                }
+            }
+        }
+
+        tbody {
+
+            tr {
+                border-bottom: 1px solid #03045e;
+
+                td {
+                    height: 50px;
+                    border-right: 1px solid #03045e;
+                }
+
+                td:first-child {
+                    text-align: center;
+                }
+
+                td:last-child {
+                    padding: 10px;
+                    border-right: none;
+                }
+            }
+
+            tr:last-child {
+                border-bottom: none;
+            }
+
+        }
+    }
+}
