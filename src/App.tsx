@@ -7,7 +7,7 @@ import './App.scss';
 
 const App: FC = () => {
   const [extractedData, setExtractedData] = useState<SortedSentences[]>([])
-console.log(extractedData)
+
   return (
     <div className="wrapper">
       <div className="container">

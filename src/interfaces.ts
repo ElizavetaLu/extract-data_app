@@ -12,7 +12,6 @@ export interface SortedSentences {
     sentences: string[];
 }
 
-
 export interface DataListProps {
     data: SortedSentences[]
 }
